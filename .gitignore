@@ -1,0 +1,97 @@
+# .gitignore for .NET projects
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# TeamCity
+_TeamCity*
+
+# DotTrace
+*.dotTrace
+
+# Rider
+.idea/
+*.sln.iml
+
+# Azure Functions local settings
+local.settings.json
+
+# Windows image file caches
+Thumbs.db
+ ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.history/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git :-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Node.js
+node_modules/
+
+# Yarn
+.yarn/
+.pnp.*
+
+# dotenv environment variables file
+.env
+.env.*
+/.vs
