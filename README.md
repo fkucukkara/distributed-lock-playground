@@ -28,24 +28,30 @@ A distributed lock is a mechanism that ensures only one process or service in a 
 ## Getting Started
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/fkucukkara/distributed-lock-playground.git
    cd DistributedLock101
    ```
+
 2. **Restore dependencies:**
+
    ```sh
    dotnet restore
    ```
+
 3. **Run the API service:**
+
    ```sh
    dotnet run --project DistributedLock101.ApiService
    ```
+
 4. **Explore the API:**
    Use tools like Postman or Swagger UI to interact with the endpoints.
 
 ## Technologies Used
 
-- .NET 9
+- .NET 10
 - ASP.NET Core
 - (Add your distributed lock provider, e.g., Redis, SQL, etc.)
 
@@ -57,6 +63,7 @@ A distributed lock is a mechanism that ensures only one process or service in a 
 - Consul
 
 ## License
+
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
